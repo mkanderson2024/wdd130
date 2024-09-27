@@ -8,13 +8,13 @@ nav a {
     padding: 20px;
 }
 main {
-    size: 800px;
+    max-width: 840px;
 }
 h1 {
     color:steelblue;
 }
 main img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
