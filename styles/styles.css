@@ -13,21 +13,32 @@ main {
 h1 {
     color:steelblue;
 }
-img {
-    width: 150px;
+main img {
+    width: 200px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 1rem;
 }
 p {
-    padding: 10px;
+    padding: 0px;
 }
 aside{
-    width: 800;
-    margin: auto;
-    border: gold;
+    width: 15rem;
+    margin: 5px;
+    border: 1px solid gold;
     padding: 5px ;
     background-color: tan;
     color: #42280E
+}
+aside img {
+    width:200px;
+    height:auto;
+
+}
+footer{
+    margin-top: 5px;
+    border-top: solid steelblue;
+    text-align: center;
 }
