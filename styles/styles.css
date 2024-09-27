@@ -7,6 +7,9 @@ nav a {
     display: block;
     padding: 20px;
 }
+main {
+    size: 800px;
+}
 h1 {
     color:steelblue;
 }
@@ -19,4 +22,12 @@ img {
 }
 p {
     padding: 10px;
+}
+aside{
+    width: 800;
+    margin: auto;
+    border: gold;
+    padding: 5px ;
+    background-color: tan;
+    color: #42280E
 }
