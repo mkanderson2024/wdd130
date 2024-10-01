@@ -28,6 +28,7 @@ main {
 h1 {
     color: var(--heading-text-color);
     background-color: white;
+    margin: 1rem;
 }
 main img {
     float: right;
@@ -40,12 +41,12 @@ main img {
     background-color: var(--alsternate-background-color);
 }
 p {
-    padding: 1rem;
+    padding: 2rem;
 }
 aside{
     position: relative;
     width: 15rem;
-    margin: 5px;
+    margin: 1rem;
     border: var(--border);
     padding: var(--padding) ;
     background-color: tan;
