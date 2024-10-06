@@ -52,12 +52,13 @@ article p {
 }
 
 h1{
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 200px;
     background-color: var(--heading-background-color);
     font: var(--heading-font);
     font-size: xxx-large;
+    color:#FCECC9;
 
 }
 
@@ -73,16 +74,13 @@ header{
 nav a{
     color: var(--background-color);
     text-decoration: none;
-
-}
-h1{
-    position: absolute;
-    background-color: var(--heading-background-color);
-    color: #FCECC9
 }
 h2{
     background-color: var(--accent-background-color);
-    color:#FCECC9
+    color:#FCECC9;
+    font: var(--heading-font);
+    font-size: xxx-large;
+    color:#FCECC9;
 }
 footer{
     background-color: var(--heading-background-color);
