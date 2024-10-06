@@ -1,0 +1,47 @@
+:root{
+    --background-color: #FCECC9;
+    --heading-background-color: #074f57;
+    --heading-text-color: #FCECC9;;
+    --accent-background-color: #077187;
+    --padding: 5px;
+    --border: 2px solid #447604;
+    --color: #22031F;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background-color);
+}
+header{
+    background-color: var(--heading-background-color);
+}
+nav a{
+    color: var(--background-color);
+    text-decoration: none;
+
+}
+h1{
+    position: absolute;
+    background-color: var(--heading-background-color);
+    color: #FCECC9
+}
+h2{
+    background-color: var(--accent-background-color);
+    color:#FCECC9
+}
+footer{
+    background-color: var(--heading-background-color);
+    border-top: var(--border);
+    text-align: center;
+}
+p{
+    color: var(--color);
+}
