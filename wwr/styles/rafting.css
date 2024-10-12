@@ -113,12 +113,15 @@ nav {
     background-color:#447604
 }
 
-.flexbox-container-2{
+.flexbox-container-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.flexbox-history {
+    width: 200px;
+}
 
 
 h2 {
@@ -128,6 +131,7 @@ h2 {
     font-size: 3rem;
     color:#FCECC9;
     margin: 5px;
+    text-align: center;
 }
 
 .flexbox-container{
