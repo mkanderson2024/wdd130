@@ -1,4 +1,4 @@
-:root{
+:root {
     --background-color: #FCECC9;
     --heading-background-color: #074f57;
     --heading-text-color: #FCECC9;;
@@ -31,6 +31,16 @@ main {
     height: auto;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 2.25fr 1fr 2fr;
+    background-color: var(--heading-background-color);
+    align-items: center;
+    /* max-width: 1024px; */
+    border-bottom: solid 10px #447604;
+}
+
 article {
     position: absolute;
     top:100px;
@@ -51,42 +61,88 @@ article p {
 
 }
 
-h1{
+h1 {
     position: absolute;
     top: 20px;
-    left: 200px;
+    left: 100px;
     background-color: var(--heading-background-color);
     font: var(--heading-font);
-    font-size: xxx-large;
+    font-size: 3rem;
     color:#FCECC9;
 
 }
 
 body {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     background-color: var(--background-color);
     color: var(--color)
 }
 
-header{
-    background-color: var(--heading-background-color);
+
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
 }
-nav a{
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+	display: flex;
+    list-style: none;
+    background-color: var(--accent-background-color);
+}
+
+.navigation li {
+    flex: 1 1 100%
+}
+
+.navigation a {
+    display: block;
+    padding: 40px;
     color: var(--background-color);
     text-decoration: none;
+    border: 1px solid #FCECC9
 }
-h2{
+
+.navigation a:hover {
+    background-color:#447604
+}
+
+h2 {
     background-color: var(--accent-background-color);
     color:#FCECC9;
     font: var(--heading-font);
-    font-size: xxx-large;
+    font-size: 3rem;
     color:#FCECC9;
+    margin: 5px;
 }
-footer{
+
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure {
+    border-top: solid 5px #447604
+}
+
+figcaption {
+    text-align: center;
+    background-color: var(--heading-background-color);
+    color: #FCECC9;
+    border-bottom: 3px solid #447604;
+}
+footer {
     background-color: var(--heading-background-color);
     border-top: var(--border);
     text-align: center;
 }
-p{
+p {
     color: var(--color);
 }
