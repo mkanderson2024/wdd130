@@ -10,7 +10,32 @@
             <h1>WDD 130 | Michael Anderson | HTML Form - User Poll</h1>
         </header>
     <main>
-
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</lable>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <lable for="favorite-browser">Favorite Browser</lable>
+                <select id="favorite-browser" name="favorite-browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Vrave</option>
+                    <option value="other">Other</option>
+                </select>
+                <lable for="pet">Do you have a housold pet?</lable>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Ntherlands, Tibuktu Mali"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
     </main>
     <footer>
         <p>©2024 | HTML Form - User Poll Activity | Michael Anderson</p>
