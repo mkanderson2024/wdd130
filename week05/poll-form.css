@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: steelblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 5px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .25rem;
+    border-color: steelblue;
+    margin: 4px auto;
+    padding: 4px;
+    border-radius: .25rem;
+}
+
+form{
+    max-width: 500px;
+    margin: 4px center;
+    padding: 4px;
+    border-radius: .25rem;
+    background-color: antiquewhite;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem
+}
+
+legend {
+    padding: 2px;
+    background-color: steelblue;
+    color: white;
+    margin: 2px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: larger;
+}
+
+button {
+    padding: 1rem;
+    margin: center;
+    margin-left: 12rem;
+    
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+footer {
+    border-top: 5px solid steelblue;
+    text-align: center;
+    padding: 4px;
+}
