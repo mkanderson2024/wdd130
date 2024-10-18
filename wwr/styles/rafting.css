@@ -113,6 +113,11 @@ nav {
     background-color:#447604
 }
 
+.flexbox-item{
+    justify-content: space-around;
+    align-content: center;
+}
+
 .flexbox-container-2 {
     display: flex;
     flex-direction: row;
@@ -139,6 +144,25 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.employee-info {
+    display:flex;
+    flex-direction: column;
+    background-color: var(--accent-background-color);
+    margin: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
+}
+.grid-item {
+    padding: 20px;  
+}
+.contact-info {
+    background-color: var(--accent-background-color);
+    margin: 1rem;
 }
 
 figure {
