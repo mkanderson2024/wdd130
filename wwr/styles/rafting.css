@@ -116,6 +116,7 @@ nav {
 .flexbox-item{
     justify-content: space-around;
     align-content: center;
+    color:#FCECC9;
 }
 
 .flexbox-container-2 {
@@ -180,7 +181,18 @@ footer {
     border-top: var(--border);
     text-align: center;
 }
+
 p {
     color: var(--color);
+    margin: 20px;
+}
+
+p.contact-text{
+    color: #FCECC9;
+    margin: 20px;
+}
+
+p.footer-text{
+    color: #FCECC9;
     margin: 20px;
 }
