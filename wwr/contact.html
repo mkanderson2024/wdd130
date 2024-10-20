@@ -24,13 +24,20 @@
             </nav>
         </header>
         <main>
-            <section><div class="flexbox-container employee-info">
-                <div class="flexbox-item employee-title"></div>
-                    <h2>The Crew</h2>
-                    <div class="grid-container">
-                        <div class="grid-item"><img src="images/joanna.webp" alt="Jo Jo" width="150" height="111"><caption class="employee-text">Joanna: Co Owner</caption></div>
-                        <div class="grid-item"><img src="images/derick.webp" alt="Der" width="150"><caption class="employee-text">Derick: Co Owner</caption></div>
-                        <div class="grid-item"><img src="images/tinka.webp" alt="Tinka" width="150"><caption class="employee-text">Tinka: Co Owner</caption></div>
+            <section>
+                <div class="flexbox-container employee-info">
+                    <div class="flexbox-item employee-title"></div>
+                        <h2>The Crew</h2>
+                        <div class="grid-container">
+                            <figure class="grid-item"><img src="images/joanna.webp" alt="Jo Jo" width="150" height="111">
+                                <figcaption class="employee-text">Joanna: Co Owner</figcaption>
+                            </figure>
+                            <figure class="grid-item"><img src="images/derick.webp" alt="Der" width="150">
+                                <figcaption class="employee-text">Derick: Co Owner</figcaption>
+                            </figure>
+                            <figure class="grid-item"><img src="images/tinka.webp" alt="Tinka" width="150">
+                            <figcaption class="employee-text">Tinka: Co Owner</figcaption>
+                            </figure>
                     </div>          
                 </div>
             </section>
@@ -57,8 +64,8 @@
                                 </div>
                             </fieldset>  
                             <fieldset>
-                                <div>
-                                    <legend>Message Purpose</legend>
+                                <legend>Message Purpose</legend>
+                                <div class="form-item column1">
                                         <input type="radio" id="inquiry" name="inquiry" value="inquiry">
                                         <label for="inquiry">General Inquiry</label><br>
                                         <input type="radio" id="reservation" name="reservation" value="reservation">
@@ -68,16 +75,19 @@
                                 </div>
                             </fieldset>
                             <fieldset>
-                                <div class="form-item column1"><legend>Message</legend>
+                                <legend>Message</legend>
+                                <div class="form-item column1">
                                     <textarea id="feedback" name="feedback" rows="4" placeholder="Leave us a message"></textarea>
                                 </div>
                             </fieldset>
                             <fieldset>
-                                <div class="form-item column1"><legend>Newsletter</legend>
+                                <legend>Newsletter</legend>
+                                <div class="form-item column1">
                                     <label for="newsletter">Please subscribe me to a monthly newsletter <input type="checkbox" id="newsletter" name="pet"></label>
                                 </div>
                             </fieldset>
                             <button type="submit">Submit</button>
+                        </form>
                     </div>
                 </div></section>            
         </main>
