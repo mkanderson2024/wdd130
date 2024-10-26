@@ -47,6 +47,14 @@ body {
     color: var(--color)
 }
 
+.btn {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: #447604;
+    color: #FCECC9;
+  }
+  
+
 .contact-info {
     background-color: var(--accent-background-color);
     margin: 1rem;
@@ -183,6 +191,14 @@ h2 {
     grid-template-columns: 200px 200px 200px;
     background-color: #FCECC9;
 }
+
+.grid-info {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px 240px;
+    background-color: #FCECC9;
+    border:solid #447604;
+}
+
 .grid-item {
     align-items: center;
     padding: 20px;
